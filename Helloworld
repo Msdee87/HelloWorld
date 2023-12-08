@@ -14,7 +14,7 @@ pipeline {
         stage("test") {
 
             steps {
-              git  'https://github.com/Msdee87/HelloWorld.git'
+              echo 'test my application...'
             }
         }
 
